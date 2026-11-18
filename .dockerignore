@@ -1,0 +1,26 @@
+# Keep the Docker build context small and avoid leaking local/dev artifacts or secrets
+**/bin/
+**/obj/
+**/out/
+.vs/
+.git/
+.github/
+.opencode/
+.agent/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+**/appsettings.Development.json
+firebase-adminsdk.json
+**/firebase-adminsdk.json
+*.dbmdl
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+.vscode/
+.idea/
+TestResults/
+coverage*/
+*.binlog

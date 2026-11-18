@@ -1,0 +1,16 @@
+namespace Luqma.Application.Features.Dtos.Responses.AccountResponses
+{
+    public class UserResponse
+    {
+        public string Id { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string PhoneNumber { get; set; } = string.Empty;
+        public string Address { get; set; } = string.Empty;
+        public string Role { get; set; } = string.Empty;
+        public bool EmailConfirmed { get; set; }
+        public bool IsArchived { get; set; }
+        public DateTime CreateAt { get; set; }
+        public DateTime UpdateAt { get; set; }
+    }
+}
